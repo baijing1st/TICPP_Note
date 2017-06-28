@@ -9,6 +9,7 @@ int main()
 	CopyInts_Test ct;
 	ct.Run();
 	getchar();
+	getchar();
     return 0;
 }
 
