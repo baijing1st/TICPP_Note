@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\FunctionObjects">
+      <UniqueIdentifier>{09db7ff3-2878-45ed-bc1d-5f8f1621daa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FunctionObjects">
+      <UniqueIdentifier>{32a3768b-cca2-4dbb-a47d-8cb8ce67ddc2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -39,6 +45,15 @@
     <ClInclude Include="Test.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Generators.h">
+      <Filter>头文件\FunctionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionObjects.h">
+      <Filter>头文件\FunctionObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="FBinder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -57,6 +72,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators.cpp">
+      <Filter>源文件\FunctionObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionObjects.cpp">
+      <Filter>源文件\FunctionObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="FBinder.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
