@@ -3,11 +3,18 @@
 
 #include "stdafx.h"
 #include "CopyInts.h"
+#include "FBinder.h"
 #include "CopyInts2.h"
 #include "CopyInts4.h"
 
 int main()
 {
+	CopyInts_Test ct;
+	ct.Run();
+	//getchar();
+
+	FBinder_Test fbt;
+	fbt.Run();
 	//CopyInts_Test cit;
 	//cit.Run();
 
