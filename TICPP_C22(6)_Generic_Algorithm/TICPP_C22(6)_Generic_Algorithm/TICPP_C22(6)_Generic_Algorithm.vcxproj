@@ -145,13 +145,17 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ComposeTry.h" />
     <ClInclude Include="CopyInts.h" />
     <ClInclude Include="CopyInts2.h" />
     <ClInclude Include="CopyInts4.h" />
     <ClInclude Include="Date.h" />
     <ClInclude Include="FBinder.h" />
+    <ClInclude Include="FindBlanks.h" />
     <ClInclude Include="FunctionObjects.h" />
     <ClInclude Include="Generators.h" />
+    <ClInclude Include="MemFun2.h" />
+    <ClInclude Include="MenFun1.h" />
     <ClInclude Include="require.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Suite.h" />
@@ -159,13 +163,17 @@
     <ClInclude Include="Test.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ComposeTry.cpp" />
     <ClCompile Include="CopyInts.cpp" />
     <ClCompile Include="CopyInts2.cpp" />
     <ClCompile Include="CopyInts4.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="FBinder.cpp" />
+    <ClCompile Include="FindBlanks.cpp" />
     <ClCompile Include="FunctionObjects.cpp" />
     <ClCompile Include="Generators.cpp" />
+    <ClCompile Include="MemFun2.cpp" />
+    <ClCompile Include="MenFun1.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
