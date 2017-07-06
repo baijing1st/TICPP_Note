@@ -66,6 +66,18 @@
     <ClInclude Include="ComposeTry.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="PrintSequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FillGenerateTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CalcInventory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -111,6 +123,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ComposeTry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FillGenerateTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcInventory.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

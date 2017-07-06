@@ -10,6 +10,8 @@
 #include "MemFun2.h"
 #include "FindBlanks.h"
 #include "ComposeTry.h"
+#include "FillGenerateTest.h"
+#include "CalcInventory.h"
 
 int main()
 {
@@ -37,9 +39,14 @@ int main()
 	//FindBlanks_Test fbt;
 	//fbt.Run();
 
-	ComposeTry_Test ctt;
-	ctt.Run();
+	//ComposeTry_Test ctt;
+	//ctt.Run();
 
+	//FillGenerate_Test fgt;
+	//fgt.Run();
+
+	CalcInventory_Test clcit;
+	clcit.Run();
 
 	getchar();
 
