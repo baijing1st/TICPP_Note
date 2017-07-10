@@ -97,7 +97,7 @@ BasicSequenceOperations::~BasicSequenceOperations()
 
 void BasicSequenceOperations_Test::Run()
 {
-	//basicOps<vector<int>>("vector");
-	basicOps<list<int>>("list");
+	basicOps<vector<int>>("vector");
+	//basicOps<list<int>>("list");
 }
 

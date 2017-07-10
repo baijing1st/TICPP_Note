@@ -48,6 +48,12 @@
     <ClInclude Include="BasicSequenceOperations.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Noisy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorOverflow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -75,6 +81,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="BasicSequenceOperations.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Noisy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorOverflow.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

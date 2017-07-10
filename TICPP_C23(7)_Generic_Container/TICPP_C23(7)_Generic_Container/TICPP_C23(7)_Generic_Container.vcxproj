@@ -148,6 +148,7 @@
     <ClInclude Include="BasicSequenceOperations.h" />
     <ClInclude Include="Date.h" />
     <ClInclude Include="Inserters.h" />
+    <ClInclude Include="Noisy.h" />
     <ClInclude Include="require.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="StreambufIterator.h" />
@@ -155,11 +156,13 @@
     <ClInclude Include="Suite.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Test.h" />
+    <ClInclude Include="VectorOverflow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicSequenceOperations.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="Inserters.cpp" />
+    <ClCompile Include="Noisy.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -171,6 +174,7 @@
     <ClCompile Include="Suite.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TICPP_C23(7)_Generic_Container.cpp" />
+    <ClCompile Include="VectorOverflow.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

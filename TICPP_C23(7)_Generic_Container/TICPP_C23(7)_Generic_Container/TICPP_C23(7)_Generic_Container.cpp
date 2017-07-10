@@ -6,6 +6,7 @@
 #include "StreamIt.h"
 #include "StreambufIterator.h"
 #include "BasicSequenceOperations.h"
+#include "VectorOverflow.h"
 
 int main()
 {
@@ -18,8 +19,11 @@ int main()
 	//StreambufIterator_Test sbit;
 	//sbit.Run();
 
-	BasicSequenceOperations_Test bsot;
-	bsot.Run();
+	//BasicSequenceOperations_Test bsot;
+	//bsot.Run();
+
+	VectorOverflow_Test voft;
+	voft.Run();
 
 	getchar();
     return 0;
