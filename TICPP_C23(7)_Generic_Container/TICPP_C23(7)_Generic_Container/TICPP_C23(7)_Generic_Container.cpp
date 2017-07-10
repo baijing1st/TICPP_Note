@@ -5,6 +5,7 @@
 #include "Inserters.h"
 #include "StreamIt.h"
 #include "StreambufIterator.h"
+#include "BasicSequenceOperations.h"
 
 int main()
 {
@@ -14,8 +15,12 @@ int main()
 	//StreamIt_Test sit;
 	//sit.Run();
 
-	StreambufIterator_Test sbit;
-	sbit.Run();
+	//StreambufIterator_Test sbit;
+	//sbit.Run();
+
+	BasicSequenceOperations_Test bsot;
+	bsot.Run();
+
 	getchar();
     return 0;
 }

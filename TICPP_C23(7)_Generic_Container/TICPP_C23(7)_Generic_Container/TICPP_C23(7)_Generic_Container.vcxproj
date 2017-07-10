@@ -145,6 +145,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BasicSequenceOperations.h" />
     <ClInclude Include="Date.h" />
     <ClInclude Include="Inserters.h" />
     <ClInclude Include="require.h" />
@@ -156,6 +157,7 @@
     <ClInclude Include="Test.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BasicSequenceOperations.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="Inserters.cpp" />
     <ClCompile Include="stdafx.cpp">
