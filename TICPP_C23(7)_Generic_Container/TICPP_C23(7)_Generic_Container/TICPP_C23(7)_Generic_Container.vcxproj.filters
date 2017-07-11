@@ -54,6 +54,9 @@
     <ClInclude Include="VectorOverflow.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ListStability.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -87,6 +90,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="VectorOverflow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ListStability.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

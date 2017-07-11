@@ -148,6 +148,7 @@
     <ClInclude Include="BasicSequenceOperations.h" />
     <ClInclude Include="Date.h" />
     <ClInclude Include="Inserters.h" />
+    <ClInclude Include="ListStability.h" />
     <ClInclude Include="Noisy.h" />
     <ClInclude Include="require.h" />
     <ClInclude Include="stdafx.h" />
@@ -162,6 +163,7 @@
     <ClCompile Include="BasicSequenceOperations.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="Inserters.cpp" />
+    <ClCompile Include="ListStability.cpp" />
     <ClCompile Include="Noisy.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
