@@ -8,6 +8,8 @@
 #include "BasicSequenceOperations.h"
 #include "VectorOverflow.h"
 #include "ListStability.h"
+#include "WordList.h"
+#include "WordList2.h"
 
 int main()
 {
@@ -26,8 +28,14 @@ int main()
 	//VectorOverflow_Test voft;
 	//voft.Run();
 
-	ListStability_Test lst;
-	lst.Run();
+	//ListStability_Test lst;
+	//lst.Run();
+
+	//WordList_Test wllt;
+	//wllt.Run();
+
+	WordList2_Test wllt2;
+	wllt2.Run();
 
 	getchar();
     return 0;

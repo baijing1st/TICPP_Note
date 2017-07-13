@@ -157,7 +157,10 @@
     <ClInclude Include="Suite.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Test.h" />
+    <ClInclude Include="TokenIterator.h" />
     <ClInclude Include="VectorOverflow.h" />
+    <ClInclude Include="WordList.h" />
+    <ClInclude Include="WordList2.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicSequenceOperations.cpp" />
@@ -176,7 +179,10 @@
     <ClCompile Include="Suite.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TICPP_C23(7)_Generic_Container.cpp" />
+    <ClCompile Include="TokenIterator.cpp" />
     <ClCompile Include="VectorOverflow.cpp" />
+    <ClCompile Include="WordList.cpp" />
+    <ClCompile Include="WordList2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
