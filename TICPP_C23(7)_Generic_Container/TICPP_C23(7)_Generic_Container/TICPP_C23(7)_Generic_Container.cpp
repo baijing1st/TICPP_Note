@@ -7,6 +7,7 @@
 #include "StreambufIterator.h"
 #include "BasicSequenceOperations.h"
 #include "VectorOverflow.h"
+#include "ListStability.h"
 
 int main()
 {
@@ -22,8 +23,11 @@ int main()
 	//BasicSequenceOperations_Test bsot;
 	//bsot.Run();
 
-	VectorOverflow_Test voft;
-	voft.Run();
+	//VectorOverflow_Test voft;
+	//voft.Run();
+
+	ListStability_Test lst;
+	lst.Run();
 
 	getchar();
     return 0;
