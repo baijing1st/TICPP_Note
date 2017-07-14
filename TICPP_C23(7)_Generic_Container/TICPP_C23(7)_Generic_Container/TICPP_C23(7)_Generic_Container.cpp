@@ -10,6 +10,7 @@
 #include "ListStability.h"
 #include "WordList.h"
 #include "WordList2.h"
+#include "TokenIterator.h"
 
 int main()
 {
@@ -34,8 +35,11 @@ int main()
 	//WordList_Test wllt;
 	//wllt.Run();
 
-	WordList2_Test wllt2;
-	wllt2.Run();
+
+
+
+	TokenIterator_Test wktt;
+	wktt.Run();
 
 	getchar();
     return 0;
