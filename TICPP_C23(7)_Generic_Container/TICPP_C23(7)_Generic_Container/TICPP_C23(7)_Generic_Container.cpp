@@ -11,6 +11,8 @@
 #include "WordList.h"
 #include "WordList2.h"
 #include "TokenIterator.h"
+#include "BankTeller.h"
+#include "PriorityQuere1.h"
 
 int main()
 {
@@ -35,11 +37,14 @@ int main()
 	//WordList_Test wllt;
 	//wllt.Run();
 
+	//TokenIterator_Test wktt;
+	//wktt.Run();
 
+	//BankTeller_Test btt;
+	//btt.Run();
 
-
-	TokenIterator_Test wktt;
-	wktt.Run();
+	PriorityQuere1_Test pqt1;
+	pqt1.Run();
 
 	getchar();
     return 0;
