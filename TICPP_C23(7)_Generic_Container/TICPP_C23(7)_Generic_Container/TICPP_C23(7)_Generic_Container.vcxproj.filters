@@ -72,6 +72,12 @@
     <ClInclude Include="PriorityQuere1.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="PriorityQuere4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQuere5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -123,6 +129,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="PriorityQuere1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQuere4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQuere5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

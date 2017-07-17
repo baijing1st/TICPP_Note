@@ -13,6 +13,8 @@
 #include "TokenIterator.h"
 #include "BankTeller.h"
 #include "PriorityQuere1.h"
+#include "PriorityQuere4.h"
+#include "PriorityQuere5.h"
 
 int main()
 {
@@ -43,8 +45,14 @@ int main()
 	//BankTeller_Test btt;
 	//btt.Run();
 
-	PriorityQuere1_Test pqt1;
-	pqt1.Run();
+	//PriorityQuere1_Test pqt1;
+	//pqt1.Run();
+
+	//PriorityQuere4_Test pqt4;
+	//pqt4.Run();
+
+	PriorityQuere5_Test pqt5;
+	pqt5.Run();
 
 	getchar();
     return 0;

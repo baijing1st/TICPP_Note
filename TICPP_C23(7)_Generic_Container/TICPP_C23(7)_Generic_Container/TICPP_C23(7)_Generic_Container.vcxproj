@@ -152,6 +152,8 @@
     <ClInclude Include="ListStability.h" />
     <ClInclude Include="Noisy.h" />
     <ClInclude Include="PriorityQuere1.h" />
+    <ClInclude Include="PriorityQuere4.h" />
+    <ClInclude Include="PriorityQuere5.h" />
     <ClInclude Include="require.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="StreambufIterator.h" />
@@ -172,6 +174,8 @@
     <ClCompile Include="ListStability.cpp" />
     <ClCompile Include="Noisy.cpp" />
     <ClCompile Include="PriorityQuere1.cpp" />
+    <ClCompile Include="PriorityQuere4.cpp" />
+    <ClCompile Include="PriorityQuere5.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
