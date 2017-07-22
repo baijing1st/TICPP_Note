@@ -145,37 +145,47 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AssociativeBasics.h" />
+    <ClInclude Include="AssocInserter.h" />
     <ClInclude Include="BankTeller.h" />
     <ClInclude Include="BasicSequenceOperations.h" />
     <ClInclude Include="Date.h" />
     <ClInclude Include="Inserters.h" />
     <ClInclude Include="ListStability.h" />
     <ClInclude Include="Noisy.h" />
+    <ClInclude Include="NoisyMap.h" />
     <ClInclude Include="PriorityQuere1.h" />
     <ClInclude Include="PriorityQuere4.h" />
     <ClInclude Include="PriorityQuere5.h" />
+    <ClInclude Include="PriorityQueue6.h" />
     <ClInclude Include="require.h" />
+    <ClInclude Include="SimpleGenerator.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="StreambufIterator.h" />
     <ClInclude Include="StreamIt.h" />
     <ClInclude Include="Suite.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Test.h" />
+    <ClInclude Include="Thesaurus.h" />
     <ClInclude Include="TokenIterator.h" />
     <ClInclude Include="VectorOverflow.h" />
     <ClInclude Include="WordList.h" />
     <ClInclude Include="WordList2.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AssociativeBasics.cpp" />
+    <ClCompile Include="AssocInserter.cpp" />
     <ClCompile Include="BankTeller.cpp" />
     <ClCompile Include="BasicSequenceOperations.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="Inserters.cpp" />
     <ClCompile Include="ListStability.cpp" />
     <ClCompile Include="Noisy.cpp" />
+    <ClCompile Include="NoisyMap.cpp" />
     <ClCompile Include="PriorityQuere1.cpp" />
     <ClCompile Include="PriorityQuere4.cpp" />
     <ClCompile Include="PriorityQuere5.cpp" />
+    <ClCompile Include="PriorityQueue6.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -186,6 +196,7 @@
     <ClCompile Include="StreamIt.cpp" />
     <ClCompile Include="Suite.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="Thesaurus.cpp" />
     <ClCompile Include="TICPP_C23(7)_Generic_Container.cpp" />
     <ClCompile Include="TokenIterator.cpp" />
     <ClCompile Include="VectorOverflow.cpp" />

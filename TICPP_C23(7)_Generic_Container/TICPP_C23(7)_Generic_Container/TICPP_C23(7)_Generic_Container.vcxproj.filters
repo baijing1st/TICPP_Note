@@ -78,6 +78,24 @@
     <ClInclude Include="PriorityQuere5.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="PriorityQueue6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AssociativeBasics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NoisyMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AssocInserter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Thesaurus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -135,6 +153,21 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="PriorityQuere5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQueue6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AssociativeBasics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NoisyMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AssocInserter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Thesaurus.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

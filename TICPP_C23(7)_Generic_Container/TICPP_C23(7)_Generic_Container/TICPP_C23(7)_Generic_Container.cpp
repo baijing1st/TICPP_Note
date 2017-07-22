@@ -15,6 +15,12 @@
 #include "PriorityQuere1.h"
 #include "PriorityQuere4.h"
 #include "PriorityQuere5.h"
+#include "PriorityQueue6.h"
+
+#include "AssociativeBasics.h"
+#include "NoisyMap.h"
+#include "AssocInserter.h"
+#include "Thesaurus.h"
 
 int main()
 {
@@ -51,8 +57,23 @@ int main()
 	//PriorityQuere4_Test pqt4;
 	//pqt4.Run();
 
-	PriorityQuere5_Test pqt5;
-	pqt5.Run();
+	//PriorityQuere5_Test pqt5;
+	//pqt5.Run();
+
+	//PriorityQueue6_Test pqt6;
+	//pqt6.Run();
+
+	//AssociativeBasics_Test abt;
+	//abt.Run();
+
+	//NoisyMap_Test nmt;
+	//nmt.Run();
+
+	//AssocInserter_Test ait;
+	//ait.Run();
+
+	Thesaurus_Test tt;
+	tt.Run();
 
 	getchar();
     return 0;
