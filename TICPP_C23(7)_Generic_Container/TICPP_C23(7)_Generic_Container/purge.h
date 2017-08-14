@@ -21,5 +21,3 @@ template<class InpIt> void purge(InpIt begin, InpIt end)
 		++begin;
 	}
 }
-
-

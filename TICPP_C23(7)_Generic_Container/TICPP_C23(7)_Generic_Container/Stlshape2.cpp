@@ -51,7 +51,7 @@ void Stlshape2_Test::Run()
 	shapes.push_back(new Square());
 	shapes.push_back(new Circle());
 	for_each(shapes.begin(), shapes.end(), Draw<Shape>());
-	//purge(shapes);
+	////purge(shapes);
 	purge(shapes.begin(), shapes.end());
 }
 
