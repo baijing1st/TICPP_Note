@@ -158,9 +158,11 @@
     <ClInclude Include="PriorityQuere4.h" />
     <ClInclude Include="PriorityQuere5.h" />
     <ClInclude Include="PriorityQueue6.h" />
+    <ClInclude Include="purge.h" />
     <ClInclude Include="require.h" />
     <ClInclude Include="SimpleGenerator.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Stlshape2.h" />
     <ClInclude Include="StreambufIterator.h" />
     <ClInclude Include="StreamIt.h" />
     <ClInclude Include="Suite.h" />
@@ -192,6 +194,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Stlshape2.cpp" />
     <ClCompile Include="StreambufIterator.cpp" />
     <ClCompile Include="StreamIt.cpp" />
     <ClCompile Include="Suite.cpp" />

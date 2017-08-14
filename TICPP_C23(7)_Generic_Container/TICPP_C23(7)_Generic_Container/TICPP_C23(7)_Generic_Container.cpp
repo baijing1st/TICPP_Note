@@ -21,6 +21,7 @@
 #include "NoisyMap.h"
 #include "AssocInserter.h"
 #include "Thesaurus.h"
+#include "Stlshape2.h"
 
 int main()
 {
@@ -72,8 +73,11 @@ int main()
 	//AssocInserter_Test ait;
 	//ait.Run();
 
-	Thesaurus_Test tt;
-	tt.Run();
+	//Thesaurus_Test tt;
+	//tt.Run();
+
+	Stlshape2_Test slst;
+	slst.Run();
 
 	getchar();
     return 0;
