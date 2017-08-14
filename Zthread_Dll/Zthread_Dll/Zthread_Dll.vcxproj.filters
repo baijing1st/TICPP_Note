@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AtomicCount.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcurrentExecutor.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CountingSemaphore.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FastMutex.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FastRecursiveMutex.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Monitor.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolExecutor.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityCondition.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityInheritanceMutex.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityMutex.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrioritySemaphore.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursiveMutex.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursiveMutexImpl.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Semaphore.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SynchronousExecutor.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadedExecutor.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadImpl.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadLocalImpl.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadOps.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadQueue.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Zthread.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
