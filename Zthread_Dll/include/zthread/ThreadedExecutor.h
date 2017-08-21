@@ -53,7 +53,7 @@ namespace ZThread {
    * 
    * @see Executor.
    */
-  class ThreadedExecutor : public Executor {
+  class ZTHREAD_API ThreadedExecutor : public Executor {
   
     CountedPtr< ExecutorImpl > _impl;
 

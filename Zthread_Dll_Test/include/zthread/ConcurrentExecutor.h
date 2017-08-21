@@ -38,7 +38,7 @@ namespace ZThread {
    * 
    * @see PoolExecutor.
    */
-  class ConcurrentExecutor : public Executor {
+  class ZTHREAD_API ConcurrentExecutor : public Executor {
 
     PoolExecutor _executor;
 

@@ -179,6 +179,53 @@
   <ItemGroup>
     <None Include="Zthread.def" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\zthread\AtomicCount.h" />
+    <ClInclude Include="..\include\zthread\Barrier.h" />
+    <ClInclude Include="..\include\zthread\BiasedReadWriteLock.h" />
+    <ClInclude Include="..\include\zthread\BlockingQueue.h" />
+    <ClInclude Include="..\include\zthread\BoundedQueue.h" />
+    <ClInclude Include="..\include\zthread\Cancelable.h" />
+    <ClInclude Include="..\include\zthread\ClassLockable.h" />
+    <ClInclude Include="..\include\zthread\ConcurrentExecutor.h" />
+    <ClInclude Include="..\include\zthread\Condition.h" />
+    <ClInclude Include="..\include\zthread\Config.h" />
+    <ClInclude Include="..\include\zthread\CountedPtr.h" />
+    <ClInclude Include="..\include\zthread\CountingSemaphore.h" />
+    <ClInclude Include="..\include\zthread\Exceptions.h" />
+    <ClInclude Include="..\include\zthread\Executor.h" />
+    <ClInclude Include="..\include\zthread\FairReadWriteLock.h" />
+    <ClInclude Include="..\include\zthread\FastMutex.h" />
+    <ClInclude Include="..\include\zthread\FastRecursiveMutex.h" />
+    <ClInclude Include="..\include\zthread\Guard.h" />
+    <ClInclude Include="..\include\zthread\GuardedClass.h" />
+    <ClInclude Include="..\include\zthread\Lockable.h" />
+    <ClInclude Include="..\include\zthread\LockedQueue.h" />
+    <ClInclude Include="..\include\zthread\MonitoredQueue.h" />
+    <ClInclude Include="..\include\zthread\Mutex.h" />
+    <ClInclude Include="..\include\zthread\NonCopyable.h" />
+    <ClInclude Include="..\include\zthread\PoolExecutor.h" />
+    <ClInclude Include="..\include\zthread\Priority.h" />
+    <ClInclude Include="..\include\zthread\PriorityCondition.h" />
+    <ClInclude Include="..\include\zthread\PriorityInheritanceMutex.h" />
+    <ClInclude Include="..\include\zthread\PriorityMutex.h" />
+    <ClInclude Include="..\include\zthread\PrioritySemaphore.h" />
+    <ClInclude Include="..\include\zthread\Queue.h" />
+    <ClInclude Include="..\include\zthread\ReadWriteLock.h" />
+    <ClInclude Include="..\include\zthread\RecursiveMutex.h" />
+    <ClInclude Include="..\include\zthread\Runnable.h" />
+    <ClInclude Include="..\include\zthread\Semaphore.h" />
+    <ClInclude Include="..\include\zthread\Singleton.h" />
+    <ClInclude Include="..\include\zthread\SynchronousExecutor.h" />
+    <ClInclude Include="..\include\zthread\Task.h" />
+    <ClInclude Include="..\include\zthread\Thread.h" />
+    <ClInclude Include="..\include\zthread\ThreadedExecutor.h" />
+    <ClInclude Include="..\include\zthread\ThreadLocal.h" />
+    <ClInclude Include="..\include\zthread\ThreadLocalImpl.h" />
+    <ClInclude Include="..\include\zthread\Time.h" />
+    <ClInclude Include="..\include\zthread\Waitable.h" />
+    <ClInclude Include="..\include\zthread\ZThread.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
