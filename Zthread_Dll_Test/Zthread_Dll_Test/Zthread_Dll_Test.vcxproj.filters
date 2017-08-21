@@ -42,6 +42,12 @@
     <ClInclude Include="SimplePriorities.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="EvenChecker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadLocalVariables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

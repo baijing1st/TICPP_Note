@@ -9,12 +9,11 @@
 #include "ConcurrentExecutor_Example.h"
 #include "YieldingTask.h"
 #include "SimplePriorities.h"
-#include <Winsock2.h> 
+#include "ThreadLocalVariables.h"
 
 
 int main()
 {
-	WSADATA ss;
 	//LiftOff_Test lt;
 	//lt.Run();
 
@@ -30,9 +29,11 @@ int main()
 	//YieldingTask_Test yt;
 	//yt.Run();
 
-	SimplePriorities_Test st;
-	st.Run();
+	//SimplePriorities_Test st;
+	//st.Run();
 
+	ThreadLocalVariables_Test tvt;
+	tvt.Run();
 
 	getchar();
     return 0;
