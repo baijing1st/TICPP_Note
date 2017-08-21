@@ -38,6 +38,7 @@ public:
 		try
 		{
 			Thread t(new LiftOff(10)   );
+			Thread t2(new LiftOff(10,2));
 			cout << "Waiting for LiftOff" << endl;
 		}
 		catch (Synchronization_Exception& e)
