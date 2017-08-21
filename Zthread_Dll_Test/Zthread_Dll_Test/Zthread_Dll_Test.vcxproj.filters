@@ -27,6 +27,21 @@
     <ClInclude Include="LiftOff.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ResponsiveUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolExccutor_Example.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcurrentExecutor_Example.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YieldingTask.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplePriorities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

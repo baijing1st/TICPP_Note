@@ -55,7 +55,7 @@ namespace ZThread {
    * 
    * @see Executor.
    */
-  class PoolExecutor : public Executor {
+  class ZTHREAD_API PoolExecutor : public Executor {
 
     //! Reference to the internal implementation 
     CountedPtr< ExecutorImpl > _impl;

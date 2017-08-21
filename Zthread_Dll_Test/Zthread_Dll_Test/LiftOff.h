@@ -24,7 +24,7 @@ public:
 	{
 		while (countDown--)
 		{
-			std::cout << id << ":"<< countDown << std::endl;
+			std::cout << id << ":"<< countDown <<"-"<< std::endl;
 		}
 		std::cout << "Liftoff!" << std::endl;
 	}
@@ -37,8 +37,11 @@ public:
 	{
 		try
 		{
-			Thread t(new LiftOff(10)   );
-			Thread t2(new LiftOff(10,2));
+			const int SZ = 2;
+			for (int i = 0; i<SZ;i++)
+			{
+				Thread t(new LiftOff(10),i);
+			}
 			cout << "Waiting for LiftOff" << endl;
 		}
 		catch (Synchronization_Exception& e)

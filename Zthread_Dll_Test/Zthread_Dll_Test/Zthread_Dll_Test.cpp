@@ -4,11 +4,36 @@
 #include "stdafx.h"
 
 #include "LiftOff.h"
+#include "ResponsiveUI.h"
+#include "PoolExccutor_Example.h"
+#include "ConcurrentExecutor_Example.h"
+#include "YieldingTask.h"
+#include "SimplePriorities.h"
+#include <Winsock2.h> 
+
 
 int main()
 {
-	LiftOff_Test lt;
-	lt.Run();
+	WSADATA ss;
+	//LiftOff_Test lt;
+	//lt.Run();
+
+	//ResponsiveUI_Test rt;
+	//rt.Run();
+
+	//PoolExccutor_Test pt;
+	//pt.Run();
+
+	//ConcurrentExecutor_Test ct;
+	//ct.Run();
+
+	//YieldingTask_Test yt;
+	//yt.Run();
+
+	SimplePriorities_Test st;
+	st.Run();
+
+
 	getchar();
     return 0;
 }
