@@ -14,8 +14,8 @@
 
 int main()
 {
-	//LiftOff_Test lt;
-	//lt.Run();
+	LiftOff_Test lt;
+	lt.Run();
 
 	//ResponsiveUI_Test rt;
 	//rt.Run();
@@ -32,8 +32,8 @@ int main()
 	//SimplePriorities_Test st;
 	//st.Run();
 
-	ThreadLocalVariables_Test tvt;
-	tvt.Run();
+	//ThreadLocalVariables_Test tvt;
+	//tvt.Run();
 
 	getchar();
     return 0;
